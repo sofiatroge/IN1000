@@ -1,0 +1,7 @@
+A: linje 1 - 16
+B: linje 19 og 20
+C: linje 3 - 5
+D: linje 7 - 9
+E: linje 2 - 5
+F: linje 21 og 22
+G: linje 19 og 20

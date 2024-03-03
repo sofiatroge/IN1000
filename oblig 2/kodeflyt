@@ -1,0 +1,37 @@
+Med utgangspunktet i at brukeren taster inn 8 i 11linje kjører programmet
+i denne rekkefølgen:
+
+1,10  | def print_prosa():
+4,11  |    print("Melding til alle gaardeiere:")
+5,12  |    print("Antall dyr paa gaarden: ")
+
+2     |antall_dyr = 4
+3     |print_prosa()
+6     |print(antall_dyr)
+7     |antall_nye_dyr = int(input("Hvor mange nye dyr kommer til gaarden: "))
+8     |antall_dyr = antall_dyr + antall_nye_dyr
+9     |print_prosa()
+13    |print(antall_dyr)
+
+14    |if antall_dyr > 12:
+--    |    print("Det er mer enn ett dusin dyr paa gaarden!")
+15    |elif antall_dyr == 12:
+16    |    print("Det er ett dusin dyr paa gaarden!")
+--    |else:
+--    |    print("Det er mindre enn ett dusin dyr paa gaarden!")
+
+"""
+Som man ser defineres først funksjonen "print_prosa". Deretter ser man hvor
+den skal kjøres som en prosedyre, slik at de som står i funksjonen skrives ut.
+Det vil si at brukeren får opp "Melding til alle gaardeiere:" med
+"Antall dyr paa gaarden:". Etter det leses det definisjonen av variabel
+antall_dyr med verdien 4, sånn at den skrives ut under funksjonen.
+Så skal brukeren svare på spørsmålet "Hvor mange nye dyr kommer til gaarden:",
+hvor den i dette tilfelle svarer 8. Med denne verdien får varbielen antall_dyr
+et nytt verdi som er 12. Rett etterpå kjøres prosedyren på nytt, men denne gangn
+skrive det ut 12 som antall_dyr. Dermed kjører programet if antall_dyr og ser at
+første ikke passer siden det ikke er mindre enn 12 dyr, derfor utdøres ikke
+nest linje, men man går istedenfor vidre til elif, siden den er når det er
+akkurat 12 dyr på gården. Så skrives det ut følgende settning "Det er ett dusin
+dyr paa gaarden!" som man fant der helt på slutten av programmet.
+"""

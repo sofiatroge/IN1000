@@ -1,0 +1,35 @@
+1. Lag en tegning av datastrukturen i programmet spillelistetester slik den ser ut
+etter at en spilleliste er lest inn fra filen musikk.txt. Du trenger ikke tegne mer
+enn to Sang-objekter. Bruk notasjonen fra forelesningene, med variabler som bokser,
+objekter som sirkler eller bokser med runde hjørner, og referanser som piler fra en
+variabel til et objekt. Du kan tegne strenger som innhold i enkle variabler, mens en
+liste tegnes som et objekt.
+
+Levert inn som bilde med følgende navn: teori.oppgave1.jpg
+
+2. I klassen Spilleliste er det en instansvariabel som lagrer alle sangene i en liste. Nevn
+minst en, helst to årsaker til at det er naturlig å velge en liste fremfor en ordbok her.
+
+Det å bruke en ordbok hadde ført til at nøkkelverdier hadde dukket opp dobbelt så ofte.
+Dermed er grunnen å velge en liste fremfor en ordbok her det at en ordbok samsvarer
+en inholdsverdi med en nøkkelverdi. Objektene som forsøkes å lagres i _sanger
+består av en nøkkelverdi som de kan indentifiseres av i _tittel.
+
+En annen årsak at det er natulig å velge en liste fremfor en ordbok her er at en
+spilleliste ofte vil ha av en spesifikk rekkfølge på sangene den består av. Der
+er en list mer natulig å bruke siden den allerde har en naturlig rekkefølge.
+Dersom man ville ha samme spesifikk rekkefølge også i en ordbok må man ha hatt
+implementert en egen funksjon for det, som hadde vært mye mer arbeid for samme resultatet.
+
+3. Klassen Spilleliste kunne hatt filnavn som parameter til konstruktøren, og lest inn
+spillelisten ved opprettelsen av et nytt Spilleliste-objekt. Ser du noen fordel ved ikke å
+gjøre det i konstruktøren?
+
+En fordel ved å ikke lese inn filen i konstuktøren er at det er enklere å endre
+på les-inn-fil-metoden på en senere tidpunkt. I tillegg til det kan en annen fordel,
+ved en serene tidpunkt, også være at man kan bruke samme metoden til å legge til flere sanger.
+
+4. Hva må endres i Spilleliste-klassen om rekkefølgen på tittel og artist byttes om i
+datafilen?
+Da må rekkefølgen i parantesen til __init__ byttes om slik at det står
+"def __init__(self,tittel,artist)" og ikke def __init__(self,artist,tittel).
