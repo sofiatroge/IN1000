@@ -14,11 +14,13 @@ print ("Hei Verden!", alder)
 # output: Hei Verden! 4
 
 # f) Legg inn følgende kommentar i programmet: "Nå endrer vi verdien av variabelen alder :".
+# "Nå endrer vi verdien av variabelen alder :"
+
 # g) Endre verdien i variabelen alder til din egen alder.
-alder = input("Nå endrer vi verdien av variabelen alder :")
+alder = 23
 
 # h) Skriv ut en ny linje til terminalen med en passende tekst og den nye verdien til alder.
 print ("Den nye alderen er:", alder)
 
 # i) Kjør programmet ditt og sjekk at alt fungerer.
-# output: Den nye alderen er: 23
+# output:Den nye alderen er: 23
