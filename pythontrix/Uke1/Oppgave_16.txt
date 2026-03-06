@@ -1,0 +1,61 @@
+I denne oppgaven skal du finne ut hvorvidt tekststrengen "IN1000" 
+skrives ut til terminalen eller ikke. Oppgavene består av kodesnutter, 
+og du må se på if-setningene for å finne ut hva som kommer til å skje.
+
+Dette er en oppgave om kodeforståelse. Løs derfor deloppgavene uten å kjøre kodesnuttene først!
+
+Skrives "IN1000" ut til terminalen? Begrunn hvorfor/hvorfor ikke.
+
+a)
+
+a = 6
+b = 5
+
+if a + b > 11:
+    print("IN1000")
+
+Nei, "IN1000" skrives ikke ut til terminalen, siden a plus b er 11 og dermed ikke større enn 11
+
+b)
+
+if 1 == 1 and 2 > 3:
+    print("IN1000")
+Nei, "IN1000" skrives ikke ut til terminalen, siden ja, 1 er lik 1, men 2 er ikke større enn 3
+
+c)
+
+if 1 < 2 or 2 < 1:
+    print("IN1000")
+Ja, "IN1000" skrives ut til terminalen, siden 1 er mindre enn 2
+
+d)
+
+if 3 < 2:
+    print("IN1000")
+elif 4 + 2 == 6:
+    print("IN1000")
+else:
+    print("ingenting")
+
+Ja, "IN1000" skrives ut til terminalen, siden 4 plus 2 er lik 6
+
+e)
+
+a = "b"
+b = 3
+
+if 1 == 2:
+    if "a" == a:
+        print("IN1000")
+    else:
+        print("ingenting")
+else:
+    if 1 > 2 or 1 < 2:
+        if b >= 3:
+            print("IN1000")
+        else:
+            print("ingenting")
+    else:
+        print("ingenting")
+
+Ja, "IN1000" skrives ut til terminalen, siden b er lik 3
