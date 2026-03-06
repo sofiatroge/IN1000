@@ -1,0 +1,45 @@
+# Skrive "Hei IN1000" på skjermen
+print ("Hei IN1000")
+
+
+# Skrive 9+9 på skjermen
+print ("9 + 9")
+
+# Skrive hva 9+9 blir på skjermen
+print (9+9)
+
+# Skrive hva 1+2+3+4 blir på skjermen
+print (1+2+3+4)
+
+# Skrive på skjermen om det stemmer at 5 er større enn 4
+print ("5 er større enn 4:", 5>4)
+
+# Skrive på skjermen om det stemmer at 4 er større enn 5
+print ("4 er større enn 5:", 4>5)
+
+# Ett Python-program som går over flere linjer
+print("--- \n Alle linjer \n kommer \n samtidig!\n---")
+
+# Slipp brukeren til!
+navn = input("Hva heter du?")
+
+# Vi ønsker å lage et program som kan fortelle hovedstaden til et valgfritt land i nordre Skandinavia
+# (brukeren ber om Norge eller Sverige)
+land = input("Vill du vite hovedstaden til Norge eller Sverige?")
+if land == "Norge" or "norge":
+    print ("Oslo")
+elif land == "Sverige" or "sverige":
+    print ("Stockholm")
+else: print ("Land er ikke Norge eller Sverige")
+
+# Lag en nøstet beslutning hvor voksne som ikke er gravide får beskjed om å kjøre karusell
+voksen = input("Er du voksen? (ja/nei)")
+
+if voksen == "ja":
+    gravid = input("Er du gravid? (ja/nei)")
+    if gravid == "nei":
+        print ("Du får kjøre karusell, jippy")
+    else: 
+        print ("Du får dessvere ikke kjøre karusell")
+else: 
+    print ("Du er dessverre ikke voksen")
