@@ -1,0 +1,40 @@
+I denne oppgaven skal du finne ut hvorvidt tekststrengen "IN1000" 
+skrives ut til terminalen eller ikke. Oppgavene består av kodesnutter, 
+og du må se på if-setningene for å finne ut hva som kommer til å skje.
+
+Dette er en oppgave om kodeforståelse. Løs derfor deloppgavene uten å kjøre kodesnuttene først!
+
+Skrives "IN1000" ut til terminalen? Begrunn hvorfor/hvorfor ikke.
+
+a)
+
+if 6 > 5:
+    print("IN1000")
+
+Ja, IN1000 skrives ut, siden det er sant at 6 er større enn 5
+
+b)
+
+if 6 == 6:
+    print("IN1000")
+Ja, IN1000 skrives ut, siden det er sant at 6 er det samme som 6
+
+c)
+
+if 6 < 6:
+    print("IN1000")
+Nei, IN1000 skrives ikke ut, siden 6 er ikke mindre enn 6
+
+d)
+
+if 6 >= 6:
+    print("IN1000")
+Ja, IN1000 skrives ut, siden 6 er lik 6
+
+e)
+
+if 6 == 6:
+    print("ingenting")
+else:
+    print("IN1000")
+Nei, IN1000 skrives ikke ut siden 6 er det samme som 6, så "ingenting" skrives ut
