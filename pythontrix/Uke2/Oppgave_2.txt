@@ -1,0 +1,66 @@
+I denne oppgaven skal du finne ut hva som skrives ut til terminalen. Deloppgavene nedenfor består 
+av kodesnutter, og du må lese nøye for å finne ut hva som kommer til å skje.
+
+Dette er en oppgave om kodeforståelse. Løs derfor deloppgavene uten å kjøre kodesnuttene først!
+
+Hva skrives ut?
+
+a)
+print(type(3))
+
+- int skrives ut
+
+b)
+print(type("3"))
+
+- String skrives ut
+
+c)
+print(type(5.0 + 3.5))
+
+- float skrives ut
+
+d)
+print(float("4" + ".8") / 2)
+
+- 2.4 skrives ut
+
+e)
+print("3" + "5")
+
+- 35 skrives ut
+
+f)
+print("3"*3)
+
+- 333 skrives ut
+
+g)
+print(type(3*"A"))
+
+- String skrives ut
+
+h)
+print(type(int("3")))
+
+-int skrives ut
+
+i)
+print(3 + "3")
+
+- feilmelding
+
+j)
+print(float(3))
+
+- 3.0 skrives ut
+
+k)
+print("1.50" == "1.5")
+
+- False skrives ut
+
+l)
+print(float("1.50") == float("1.5"))
+
+- True skrives ut
