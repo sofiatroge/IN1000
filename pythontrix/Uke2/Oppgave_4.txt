@@ -1,0 +1,22 @@
+I denne oppgaven skal du finne ut hva som skrives ut til terminalen. Deloppgavene nedenfor består av 
+kodesnutter med aritmetiske operasjoner (+, * og /). Bruk regnereglene fra matematikken for å finne ut 
+hva som kommer til å skje.
+
+Dette er en oppgave om kodeforståelse. Løs derfor deloppgavene uten å kjøre kodesnuttene først!
+
+Hva skrives ut?
+
+a)
+print(1+5*2)  - 11 skrives ut
+
+b)
+print(6/3*4/2) - 4.0 skrives ut
+
+c)
+print(2*5+2*2)  - 14 skrives ut
+
+d)
+print(4*5+2*3/2)  -  23 skrives ut
+
+e)
+print(4*(5+2)*3/2)  -  42 skrives ut
