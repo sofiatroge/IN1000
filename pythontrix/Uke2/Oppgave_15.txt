@@ -1,0 +1,11 @@
+Dette er en oppgave om forståelse av feil i et program. Løs derfor oppgaven uten å kjøre koden først!
+
+Finn fire feil i programmet under:
+
+1 | tall = input(Tast inn et siffer: )
+2 | dobbelt = 2 * tall
+3 | print("Det dobbelte er" dobbel)
+
+Det første er at det mangler int() rundt input i linje 1, det andre er at det mangler "" rundt
+teksten i input. Det tredje er at det mangler komma mangler mellom teksten og variabel dobbel i
+print, samt som det ikke bør stå dobbel, men dobbelt.

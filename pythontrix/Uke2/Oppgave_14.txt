@@ -1,0 +1,26 @@
+Dette er en oppgave om forståelse av kodeflyt. Løs derfor oppgaven uten å kjøre koden først!
+
+Forklar i hvilken rekkefølge de forskjellige linjene utføres når vi kjører programmet.
+
+Du skal indikere rekkefølgen ved å skrive tall foran linjene i programmet. Hvis en linje kjøres flere
+ ganger (for eksempel ved flere kall på samme prosedyre), kan du skrive flere tall ved siden av setningen.
+
+def kvadrat():
+    tall = input("Tall: ")
+    tall = int(tall)
+
+    print(tall, "*", tall, "=", tall * tall)
+
+a = True 
+b = False
+
+if a:
+    kvadrat()
+
+if b:
+    kvadrat()
+
+print("En gang til:")
+kvadrat()
+
+Rekkefølgen på linjene som blir kjørt er 14, 15, 17, 18, 8, 9, 10, 12, 20, 23, 24, 8, 9, 10, 12

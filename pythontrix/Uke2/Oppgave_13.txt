@@ -1,0 +1,13 @@
+Dette er en oppgave om forståelse av kodeflyt. Løs derfor oppgaven uten å kjøre koden først!
+
+Finn tre feil i programmet under:
+
+1 | lengde = 3
+2 | bredde = 5
+3 | volum = lengde * bredde * høyde
+4 | Print("Volumet er:" + volum)
+
+Den første feilen er at høyde er ikke definert, slik at man ikke kan regne ut volumet for variabel
+volum. For det andre skal print være med liten p, eller skjønner koden ikke at den skal printe noe.
+Tredje feilen er at i print prøver man å pluse sammen string og en int, som ikke funker, det bør være
+"," istedenfor "+"

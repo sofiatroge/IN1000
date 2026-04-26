@@ -1,0 +1,27 @@
+Dette er en oppgave om forståelse av kodeflyt. Løs derfor deloppgavene uten å kjøre koden først!
+
+Forklar i hvilken rekkefølge de forskjellige linjene utføres når vi kjører programmet ved å skrive 
+tall foran linjene i programmet.
+
+Skriv kjørerekkefølgen til linjene i følgende tre scenarioer:
+
+a) Hvis brukeren taster inn 50, vil det gå til else, da 50 er mellom 12 og 67 og printe ut 
+   Du må betale 50 kr
+   Ha en fin dag!
+b) Hvis brukeren taster inn 80 vil det gå til if, da 80 er høyere enn 67 og dermed printe ut 
+   Du må betale 25.0 kr
+   Ha en fin dag!
+c) Hvis brukeren taster inn 12 vil det gå til else, da 12 er mellom 12 og 67 og printe ut 
+   Du må betale 50 kr
+   Ha en fin dag!
+
+pris = 50
+tekst = input("Skriv inn alder: ")
+alder = int(tekst)
+
+if alder < 12 or alder > 67:
+    print("Du må betale", pris*0.5, "kr")
+else:
+    print("Du må betale", pris, "kr")
+
+print("Ha en fin dag!")

@@ -1,0 +1,35 @@
+Dette er en oppgave om kodeforståelse. Løs derfor deloppgavene uten å kjøre kodesnuttene først!
+
+Du skal nå forenkle noen uttrykk med sannhetsverdier. For eksempel kan sannhetsverdien not True 
+forenkles til False.
+
+Forenkle uttrykkene nedenfor. For hvert uttrykk, forklar hvorfor du kan forenkle det på måten du 
+gjør.
+
+a)
+b == True
+Forenkles til bare b, fordi b i seg selv er True hvis ikke noe annet er angitt
+
+b)
+b == False
+Forenkles til bare not b, fordi not b, vil bety not True, som er False
+
+c)
+not b == True
+Forenkles til bare not b, fordi not b ikke er True, men False
+
+d)
+not b == False
+Forenkles til bare b, fordi not b == False, er True 
+
+e)
+True and False
+Forenkles til bare False, siden noe ikke kan være både True og False sammtidiig.
+
+f)
+b or True
+Forenkles til bare True, da b er True.
+
+g)
+b and False
+Forenkles til bare False, siden b som er True og False som er False ikke kan være True

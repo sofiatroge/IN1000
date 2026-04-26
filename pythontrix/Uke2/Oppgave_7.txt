@@ -1,0 +1,44 @@
+Dette er en oppgave om kodeforståelse. Løs derfor deloppgavene uten å kjøre kodesnuttene først!
+
+Gitt at verdien av b er False, og verdien av x er 0, hva er sannhetsverdien til følgende uttrykk?
+
+a)
+b
+Sannhetsverdien er False
+
+b)
+x == 0
+Sannhetsverdien er True
+
+c)
+b and x == 0
+Sannhetsverdien er False
+
+d)
+b or x == 0
+Sannhetsverdien er True
+
+e)
+not b and x == 0
+Sannhetsverdien er True
+
+f)
+not b or x == 0
+Sannhetsverdien er True
+
+g)
+b and x != 0
+Sannhetsverdien er False
+
+h)
+b or x != 0
+Sannhetsverdien er False
+
+i)
+not b and x != 0
+Sannhetsverdien er False
+
+j)
+not b or x != 0
+Sannhetsverdien er True
+
